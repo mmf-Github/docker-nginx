@@ -18,6 +18,7 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
+pool: server
 - task: InvokeRESTAPI@1
   inputs:
     connectionType: 'connectedServiceName'
